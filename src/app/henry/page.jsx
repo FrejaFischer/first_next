@@ -16,7 +16,6 @@ export default async function Henry() {
       <p>
         {favouriteColor} - {age} years old
       </p>
-      <img src={image.url} alt="Henry" />
     </main>
   );
 }
