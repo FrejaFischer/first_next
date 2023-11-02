@@ -5,12 +5,12 @@ export default function Menu() {
     <nav>
       <ul>
         <li>
-          <Link href={"/"} prefetch={false}>
+          <Link href={"/"} prefetch={false} className={styles.link}>
             Forside
           </Link>
         </li>
         <li>
-          <Link href={"/henry"} prefetch={false}>
+          <Link href={"/henry"} prefetch={false} className={styles.link}>
             Henry
           </Link>
         </li>

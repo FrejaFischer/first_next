@@ -1,1 +1,8 @@
+.link {
+  color: red;
+}
 
+.link:active,
+.link:hover {
+  color: green;
+}
